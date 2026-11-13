@@ -79,9 +79,9 @@ gender = st.selectbox("Gender", ["M", "F"])
 age = st.number_input("Age", min_value=0, max_value=120, value=30)
 love_language = st.selectbox(
     "Love Language",
-    ["Acts of Service", "Quality Time", "Words of Affirmation", "Physical Touch", "Receiving Gifts"],
+    ["Acts of Service", "Quality Time"],
 )
-marital_status = st.selectbox("Marital Status", ["Single", "Married", "Divorced", "Widowed"])
+marital_status = st.selectbox("Marital Status", ["Single", "Married"])
 mbti = st.selectbox("MBTI", ["F", "T"])
 
 raw_input = pd.DataFrame([{
